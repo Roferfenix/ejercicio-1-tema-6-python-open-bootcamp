@@ -1,0 +1,22 @@
+class Vehiculo():
+    color = "rojo"
+    ruedas = 4
+    puertas = 2
+
+    def __init__(self) -> None:
+        pass
+        
+class Coche (Vehiculo):
+    velocidad = 120
+    cilindrada = 2000
+    def __init__ (self): 
+        self.velocidad = 120
+
+    
+
+c = Coche   
+print ("velocidad" , c.velocidad)
+print ("cilindrada" , c.cilindrada)
+print ("color" , c.color)
+print ("puertas" , c.puertas)
+print ("ruedas" , c.ruedas)
